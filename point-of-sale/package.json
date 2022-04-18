@@ -1,8 +1,8 @@
 {
     "private": true,
-    "name": "@fyfy/pay-point-of-sale",
-    "version": "0.0.0",
-    "author": "Fyfy Maintainers <maintainers@fyfy.io>",
+    "name": "@stream/pay-point-of-sale",
+    "version": "0.1.0",
+    "author": "StreamDAO Maintainers <maintainers@streamdao.org>",
     "repository": "https://github.com/streamdao/stream-pay",
     "license": "Apache-2.0",
     "scripts": {
@@ -13,7 +13,7 @@
         "lint": "eslint . && prettier --check '{*,**/*}.{js,ts,jsx,tsx,json}'",
         "lint:fix": "eslint --fix . && yarn fmt",
         "nuke": "shx rm -rf node_modules yarn.lock",
-        "deploy": "PUBLIC_URL=/fyfy-pay/app/ yarn build --public-url /fyfy-pay/app/ && shx cp .nojekyll dist/ && gh-pages --dist dist --dest app --dotfiles"
+        "deploy": "PUBLIC_URL=/stream-pay/app/ yarn build --public-url /stream-pay/app/ && shx cp .nojekyll dist/ && gh-pages --dist dist --dest app --dotfiles"
     },
     "dependencies": {
         "@solana/pay": "^0.1.3",

@@ -1,4 +1,4 @@
-# Point of Sale
+# StreamPay - Point of Sale
 
 This is an example of how you can use the `@solana/pay` JavaScript library to create a simple point of sale system.
 
@@ -47,12 +47,12 @@ git clone https://github.com/streamdao/stream-pay.git
 
 #### With Github CLI
 ```shell
-gh repo clone vamise/fyfy-pay
+gh repo clone streamdao/stream-pay
 ```
 
 ### Install dependencies
 ```shell
-cd fyfy-pay/point-of-sale
+cd stream-pay/point-of-sale
 yarn install
 ```
 
@@ -61,7 +61,7 @@ yarn install
 yarn start
 ```
 
-### Open the point of sale app
+### Open the StreamPay - Point of Sale app
 ```shell
 open "http://localhost:1234?recipient=Your+Merchant+Address&label=Your+Store+Name"
 ```
@@ -108,7 +108,7 @@ When you're done, it should look like this:
 
 You can deploy this point of sale app to Vercel with a few clicks. Fork the project and configure it like this:
 
-![Fyfy Pay Point of Sale app Vercel configuration](fyfy-pay-point-of-sale-vercel.png)
+![StreamPay - Point of Sale App Vercel configuration](stream-pay-point-of-sale-vercel.png)
 
 Once the deployment finishes, navigate to
 ```
@@ -117,7 +117,7 @@ https://<YOUR DEPLOYMENT URL>?recipient=<YOUR WALLET ADDRESS>&label=Your+Store+N
 
 ## License
 
-The Fyfy Pay Point of Sale app is open source and available under the Apache License, Version 2.0. See the [LICENSE](./LICENSE) file for more info.
+The StreamPay Point of Sale app is open source and available under the Apache License, Version 2.0. See the [LICENSE](./LICENSE) file for more info.
 
 <!-- Links -->
 
