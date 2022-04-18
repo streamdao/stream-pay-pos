@@ -1,4 +1,4 @@
-# StreamPay - Point of Sale
+# StreamPay
 
 StreamPay is a standard protocol and set of reference implementations that enable developers to incorporate decentralized payments into their apps and services.
 
