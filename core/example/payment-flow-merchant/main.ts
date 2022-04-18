@@ -12,7 +12,7 @@ import { simulateCheckout } from './simulateCheckout';
 import { simulateWalletInteraction } from './simulateWalletInteraction';
 
 async function main() {
-    console.log("Let's simulate a Fyfy Pay flow ... \n");
+    console.log("Let's simulate a StreamPay flow ... \n");
     let paymentStatus: string;
 
     console.log('1. ✅ Establish connection to the cluster');

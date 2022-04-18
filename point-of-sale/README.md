@@ -112,7 +112,7 @@ You can deploy this point of sale app to Vercel with a few clicks. Fork the proj
 
 Once the deployment finishes, navigate to
 ```
-https://<YOUR DEPLOYMENT URL>?recipient=<YOUR WALLET ADDRESS>&label=Your+Store+Name
+https://stream-pay.vercel.app/?recipient=Bn7yqxJ9FsB1x8MViRfnJmcLR46tzZZ3MQsBeHYfD7VV=streampay
 ```
 
 ## License

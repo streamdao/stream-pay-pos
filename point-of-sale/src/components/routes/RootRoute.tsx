@@ -11,7 +11,7 @@ import { FullscreenProvider } from '../contexts/FullscreenProvider';
 import { PaymentProvider } from '../contexts/PaymentProvider';
 import { ThemeProvider } from '../contexts/ThemeProvider';
 import { TransactionsProvider } from '../contexts/TransactionsProvider';
-import { FyfyPayLogo } from '../images/FyfyPayLogo';
+import { StreamPayLogo } from '../images/StreamPayLogo';
 import { USDCIcon } from '../images/USDCIcon';
 import * as css from './RootRoute.module.pcss';
 
